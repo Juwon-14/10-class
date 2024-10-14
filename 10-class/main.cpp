@@ -1,14 +1,20 @@
-//
-//  main.cpp
-//  10-class
-//
-//  Created by 홍주원 on 10/9/24.
-//
+//Juwon Hong
+//CIS 25
+//09/10/2024
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    int numbers[] = {10, 20, 30};
+    int* ptr = numbers;
+
+    
+    for (int i = 2; i >= 0; i--) {
+        cout << *(ptr + i) << " ";
+    }
+
     return 0;
 }
+
